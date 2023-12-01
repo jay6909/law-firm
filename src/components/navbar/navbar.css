@@ -1,0 +1,25 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 74px;
+    background-color: var(--css-black);
+    color:var(--css-white);
+    justify-content: space-between;
+
+}
+
+.nav-links-container{
+display: flex;
+width: 431px;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+column-gap: 41px;
+}
+
+.link{
+    cursor: pointer;
+    margin: 5px;
+}

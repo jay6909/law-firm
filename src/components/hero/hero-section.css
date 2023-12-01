@@ -1,0 +1,9 @@
+.hero-section{
+    color: var(--css-white);
+    display: flex;
+    width: 100%;
+    height: 650px;
+    padding: 20px;
+    text-align: left;
+    gap: 20px;
+}
