@@ -1,10 +1,12 @@
 import EmailInput from "../email-input"
+import { ReactComponent as LawPerson } from './law-person.svg'
+
 import './hero-section.css'
 export default () => {
     return (
         <div className="hero-section">
             <div style={{width:'50%', display:'flex', justifyContent:'center',gap:'20px', flexDirection:'column'}}>
-                <div style={{width:'70%'}} >
+                <div >
                     <h1 style={{fontSize:'66px'}}>You don’t have to<br/>
                     Fight them Alone.</h1>
                 </div>
@@ -12,8 +14,8 @@ export default () => {
                 <EmailInput/>
 
             </div>
-            <div>
-                2
+            <div style={{width:'50%', display:'flex', justifyContent:'flex-end',gap:'20px', flexDirection:'row', alignItems: 'center'}}>
+                <LawPerson/>
 
             </div>
         </div>
